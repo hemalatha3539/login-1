@@ -1,0 +1,68 @@
+.login {
+  width: 400px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: rgb(241, 235, 238);
+  color: rgb(5, 0, 0);
+  border-radius: 11px;
+  margin-top: 30px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 41px 41px 82px #9b9b9b, -41px -41px 82px #ffffff;
+  border: none;
+}
+.border {
+  padding-top: 20px;
+  width: 550px;
+  height: 500px;
+  border-radius: 5px;
+  margin-top: 80px;
+  border: none;
+  background-color: white;
+  border-radius: 11px;
+  opacity:calc(70%);
+  /* background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 41px 41px 82px #9b9b9b, -41px -41px 82px #ffffff; */
+}
+.login1 {
+  width: 400px;
+  height: 50px;
+  border-radius: 4px;
+  margin-top: 30px;
+  background-color: rgb(244, 238, 241);
+  color: rgb(7, 6, 6);
+  border: none;
+  box-shadow: 0px 0px 100px 6px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 41px 41px 82px #9b9b9b, -41px -41px 82px #ffffff;
+}
+.button {
+  margin: 60px;
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  background-color: rgb(238, 238, 245);
+  border-radius: 11px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow: 41px 41px 82px #9b9b9b, -41px -41px 82px #ffffff;
+}
+.button:hover{
+    border:2px solid rgb(24, 33, 109);
+    cursor:pointer;
+}
+@media (max-width: 576px) {
+  .border {
+    width: 576px;
+  }
+}
+.body {
+  background-image: url("collage.jpg");
+  background-repeat: no-repeat;
+  background-size:100%;
+  background-position:center;
+  width:100%;
+  object-fit: contain;
+}
+
